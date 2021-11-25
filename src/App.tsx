@@ -9,7 +9,7 @@ function App() {
   const [output, setOutput] = useState<number>(0);
 
   useEffect(() => {
-    console.log("HELLO");
+    console.log("GOOD BYE");
   }, [output]);
 
   const hanlerMinus = () => {
