@@ -8,7 +8,7 @@ function App() {
   const [output, setOutput] = useState<number>(0);
 
   useEffect(() => {
-    console.log("GOOD LUCK");
+    console.log("GOOD Bye browser!");
   }, [output]);
 
   const hanlerMinus = () => {
